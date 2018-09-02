@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setupWebView()
-        webview.loadUrl("https://google.com")
+        webview.loadUrl("https://engine.canopy.cloud/")
     }
 
     private fun setupWebView() {
